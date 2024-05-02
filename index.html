@@ -1,0 +1,22 @@
+<script>
+ //Nesta atividade, o programa solicita ao usuário que insira sua idade. 
+ //Em seguida, ele verifica a idade fornecida e fornece uma classificação com base nela:
+//Se a idade for menor que 0, uma mensagem de idade inválida é exibida.
+//Se a idade estiver entre 0 e 17, o programa imprime "Você é menor de idade."
+//Se a idade estiver entre 18 e 64, o programa imprime "Você é um adulto."
+//Se a idade for 65 ou mais, o programa imprime "Você é um idoso."
+let idade = parseFloat(prompt("digite a sua idade"))
+if (idade > 0 && idade <= 17 ) {
+    alert ("Você é menor de idade") + idade.toFixed(1) + (".");  
+}
+else if (idade >= 18 && idade <= 64) {
+    alert ("você é um adulto") + idade.toFixed (1) + (".");
+}
+else if (idade >= 65 ){
+    alert ("você é um idoso") + idade.toFixed (1) + (".");
+}
+
+else (idade < 0) 
+    alert ("idade inválida")
+
+</script>
